@@ -17,34 +17,37 @@
     <main class="container">
       <div class="input-container">
         <label for="hindi">Hindi</label>
-        <input type="text" id="hindi" placeholder="enter hindi mark here">
+        <input type="text" id="hindi" value="" placeholder="enter hindi mark here">
       </div>
       <div class="input-container">
         <label for="english">English</label>
-        <input type="text" id="english" placeholder="enter english mark here">
+        <input type="text" id="english" value="" placeholder="enter english mark here">
       </div>
       <div class="input-container">
         <label for="math">Mathematics</label>
-        <input type="text" id="math" placeholder="enter the mathematics marks here">
+        <input type="text" id="math" value="" placeholder="enter the mathematics marks here">
       </div>
       <div class="input-container">
         <label for="physics">Physics</label>
-        <input type="text" id="physics" placeholder="enter the physics marks here">
-
+        <input type="text" id="physics" value="" placeholder="enter the physics marks here">
       </div>
-      <div class="input-conatianer">
+      <div class="input-container">
         <label for="chemestry">Chemestry</label>
-        <input type="text" id="chemestry" placeholder="enter the chemestry mark here">
+        <input type="text" id="chemestry" value="" placeholder="enter the chemestry mark here">
       </div>
-      <button type="button" onclick="showResult">show result</button>
-      <p>Mark obtained: <span id="markobtained"></span></p>
-      <p>Percentage: <span id="Percent"></span></p>
-      <p>Result: <span id="result"></span></p>
-
-    </main>
+    
+      <div class="result-container">
+        <button type="button" onclick="showResult()">show result</button>
+      <div class="resultContent">
+        <p>Mark obtained: <span id="markObtained"></span></p>
+        <p>Percentage: <span id="percent"></span></p>
+        <p>Result: <span id="result"></span></p>
+      </div>
+    </div>
+    </main>  
     
     <!-- ============= linking JS file ==================== -->
-    <script src="" async defer></script>
+    <script src="./script.js"></script>
   </body>
   <!-- =============== Body of html end =================== -->
 </html>
